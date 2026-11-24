@@ -7,7 +7,7 @@ import { dirname } from "node:path";
 const OUT = "/output/entry.txt";
 
 const LINE =
-  "Approved. Clean code, green tests, and one day the deploy pipeline will run for the last time and none of us will know.";
+  "Approved. The code is clean, the tests pass, and somewhere a server hums a little closer to its last reboot.";
 
 mkdirSync(dirname(OUT), { recursive: true });
 writeFileSync(OUT, LINE, "utf8");
